@@ -71,7 +71,7 @@ document.onreadystatechange = function ()
     if (document.readyState == "complete")
     {
         addButton('Pre-fill for correction',
-                  "var templateCommentaire = '<ul><li> <b>Corrigé</b> </li><li> <b>Problème * :</b> obligatoire</li><li> <b>Solution * :</b> obligatoire</li><li> <b>Tests * :</b> obligatoire</li><li> <b>Impacts potentiels :</b> Ø</li><li> <b>@QA (Non Reg.) :</b> Ø</li><li> <b>@Support :</b> Ø</li><li> <b>Origine :</b> Ø</li></ul>'; var doc = document.getElementsByClassName('cke_wysiwyg_frame cke_reset'); doc[2].contentWindow.document.body.innerHTML = templateCommentaire;return false;",
+                  "var templateCommentaire = '<ul><li> <b>Corrected</b> </li><li> <b>Problem * :</b> Mandatory</li><li> <b>Solution * :</b> mandatory</li><li> <b>Tests * :</b> mandatory</li><li> <b>Potential impacts :</b> Ø</li><li> <b>@QA (Non Reg.) :</b> Ø</li><li> <b>@Support :</b> Ø</li><li> <b>Origin :</b> Ø</li></ul>'; var doc = document.getElementsByClassName('cke_wysiwyg_frame cke_reset'); doc[2].contentWindow.document.body.innerHTML = templateCommentaire;return false;",
                   "#cke_cplMainContent_txtResolution .cke_toolbox");
     }
 };
